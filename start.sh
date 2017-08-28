@@ -23,4 +23,4 @@ exec $KAFKA_HOME/bin/kafka-server-start.sh $KAFKA_HOME/config/server.properties 
 --override reserved.broker.max.id=$MAX_BROKER_IDS \
 --override advertised.host.name=$(hostname -I) \
 --override log.dirs=$KAFKA_LOG_DIRS \
---override zookeeper.connect=$ZOOKEEPER_SERVICE_HOST:$ZOOKEEPER_SERVICE_PORT
+#--override zookeeper.connect=$ZOOKEEPER_SERVICE_HOST:$ZOOKEEPER_SERVICE_PORT
